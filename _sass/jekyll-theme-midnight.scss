@@ -6,7 +6,7 @@ body {
   padding:0px 0 20px 0px;
   margin: 0px;
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#f0e7d5;
+  color:#f1f1f1;
   font-weight: normal;
   background: #252525;
   background-attachment: fixed !important;
@@ -76,7 +76,7 @@ strong {
 }
 
 .wrapper {
-  max-width:650px;
+  max-width:90%;
   margin:0 auto;
   position:relative;
   padding: 0 20px;
@@ -161,7 +161,7 @@ dt {
   height: 60px;
   width: 100%;
   position: fixed;
-  background: url(../images/nav-bg.gif) #353535;
+  // background: url(../images/nav-bg.gif) #353535;
   border-bottom: 4px solid #434343;
   box-shadow: 0px 1px 3px rgba(0,0,0,.25);
 
@@ -225,9 +225,9 @@ dt {
 }
 
 section {
-  max-width:650px;
-  padding: 30px 0px 50px 0px;
-  margin: 20px 0;
+  max-width:1300px;
+  margin:0 auto;
+  position:relative;
   margin-top: 70px;
 
   #title {
@@ -239,13 +239,13 @@ section {
     h1 {
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
-      font-size: 40px;
+      font-size: 72px;
       text-align: center;
-      line-height: 36px;
+      line-height: 70px;
     }
 
     p {
-      color: #d7cfbe;
+      color: #fafafa;
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
       font-size: 18px;
