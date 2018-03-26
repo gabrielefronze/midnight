@@ -6,15 +6,15 @@ body {
   padding:0px 0 20px 0px;
   margin: 0px;
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#1a1a1a;
+  color:#f0e7d5;
   font-weight: normal;
-  background: #f7f7f7;
+  background: #252525;
   background-attachment: fixed !important;
   background: linear_gradient(#2a2a29, #1c1c1c);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#000000;
+  color:#e8e8e8;
   margin:0 0 10px;
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
@@ -38,7 +38,7 @@ h2 {
 }
 
 h4, h5, h6 {
-  color:#000000;
+  color:#e8e8e8;
 }
 
 h3 {
@@ -50,12 +50,12 @@ h3 {
 }
 
 a {
-  color:#4dbbfa;
+  color:#ffcc00;
   font-weight:400;
   text-decoration:none;
 
   &:hover {
-    color: #8ecff5;
+    color: #ffeb9b;
   }
 }
 
@@ -87,7 +87,7 @@ section img {
 }
 
 blockquote {
-  border-left:3px solid #4dbbfa;
+  border-left:3px solid #ffcc00;
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
@@ -148,7 +148,7 @@ hr {
 }
 
 dt {
-  color:rgb(91, 151, 56);
+  color:#F0E7D5;
   font-family: 'OpenSansSemibold', "Helvetica Neue", Helvetica, Arial, sans-serif !important;
   font-weight: normal;
 }
