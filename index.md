@@ -36,6 +36,15 @@ GitHubPages::Dependencies.gems.each do |gem, version|
   s.add_dependency(gem, "= #{version}")
 end
 ```
+```cpp
+# C++ code with syntax highlighting
+    inline void MTRBooster::StackStage(){
+      if( fCurrentPlotSetting.fValidSettings ){
+        fPlotSettings.emplace_back(fCurrentPlotSetting);
+        fCurrentPlotSetting=MTRPlotSettings();
+      } else std::cerr << "Cannot stack invalid plot configuration.\n";
+    }
+```
 
 #### [](#header-4)Header 4
 
